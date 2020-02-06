@@ -71,6 +71,7 @@ Make a copy of [cluster-autoscaler-vmss.yaml](examples/cluster-autoscaler-vmss.y
 - ResourceGroup: `<base64-encoded-resource-group>`
 - SubscriptionID: `<base64-encoded-subscription-id>`
 - TenantID: `<base64-encoded-tenant-id>`
+- VMType: `<base64-encoded-VMType>`
 
 > **_NOTE_**: Use a command such as `echo $CLIENT_ID | base64` to encode each of the fields above.
 
